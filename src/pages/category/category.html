@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Agendamento
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+  <ion-content padding >
+    <div text-center class="categoryHeader">
+      <b>Escolha</b> a consulta
+    </div>
+    <ion-list no-lines >
+
+      <button ion-item text-capitalize (click)="showDoctors()">
+        <ion-icon class="especialidade" name="star" item-start></ion-icon>
+        Consulta de especialidade
+      </button>
+
+      <button ion-item text-capitalize>
+        <ion-icon class="terapia" name="ios-people" item-start></ion-icon>
+        Terapia de casal ou familiar
+      </button>
+
+      <button ion-item text-capitalize>
+        <ion-icon class="toxico" name="no-smoking" item-start></ion-icon>
+        Toxicodependências
+      </button>
+
+
+
+    </ion-list>
+  </ion-content>

@@ -1,0 +1,25 @@
+page-home {
+  h2{
+    color:#00995d;
+  }
+
+  ion-row div{
+    font-size: 10.5pt !important;
+  }
+
+  span.button-inner{
+    color: white  !important;
+  }
+  ion-col span.button-inner{
+    color: #00995d !important;
+  }
+
+  span{
+    color: #00995d !important;
+  }
+
+  ion-card-content{
+    margin-top: 1%;
+    border-bottom: 1px solid #eee;
+  }
+}

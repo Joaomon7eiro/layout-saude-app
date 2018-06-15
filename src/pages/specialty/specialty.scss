@@ -1,0 +1,45 @@
+page-specialty {
+
+  div.scroll-content{
+    padding : 0px !important;
+    background: #f7f7f7 !important;
+
+  }
+  div.categoryHeader{
+    padding-top: 7% ;
+    padding-bottom: 5% ;
+    border-bottom: 1px solid #ddd;
+    background: #fff !important;
+    font-size: 20pt !important;
+  }
+  ion-list{
+    margin : 0px !important;
+  }
+  h1{
+    text-decoration: none;
+  }
+  span.button-inner{
+    color: white;
+  }
+  ion-list button{
+    border-bottom: 1px solid #ddd !important;
+    font-size: 15pt !important;
+    background: #f7f7f7 !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+  }
+
+  ion-icon.cardio{
+    color:red;
+  }
+
+  ion-icon.oftalmo{
+    color:rgb(0, 204, 211);
+  }
+
+  ion-icon.psiq{
+    color:rgb(160, 43, 255);
+  }
+
+
+}

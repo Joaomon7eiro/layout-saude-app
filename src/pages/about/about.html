@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logout()">
+        <ion-icon name="ios-exit-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Agendamento
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  <div text-center class="categoryHeader">
+    <b>Escolha</b> uma categoria
+  </div>
+  <ion-list no-lines >
+
+    <button ion-item text-capitalize (click)="pushSpecialty()">
+      <ion-icon class="med" name="medkit" item-start></ion-icon>
+      Medico
+    </button>
+
+    <button ion-item text-capitalize>
+      <ion-icon class="dent" name="happy" item-start></ion-icon>
+      Dentista
+    </button>
+
+    <button ion-item text-capitalize>
+      <ion-icon class="nutri" name="restaurant" item-start></ion-icon>
+      Nutricionista
+    </button>
+
+  </ion-list>
+</ion-content>
+

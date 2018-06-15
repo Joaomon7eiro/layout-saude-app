@@ -1,0 +1,8 @@
+{
+  "name": "saude",
+  "app_id": "78c4d670",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

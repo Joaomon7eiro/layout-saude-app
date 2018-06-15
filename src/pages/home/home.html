@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logout()">
+        <ion-icon name="ios-exit-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<h2>Meus Agendamentos</h2>
+<hr>
+<ion-card>
+    <ion-item>
+      <h1>Maria dos Santos</h1>
+      <hr>
+    </ion-item>
+
+
+    <ion-card-content >
+      <h3><span>Especialidade(s)</span>: Psiquiatria</h3>
+      <h3><span>Serviço</span>: Consulta Especializada Psiquiatria</h3>
+      <h3><span>Telefone</span>: (14) 4949-4949</h3>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button clear small icon-left>
+          <ion-icon name="time"></ion-icon>
+          <div>14:30</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button clear small icon-left>
+          <ion-icon name="calendar"></ion-icon>
+          <div>20/06/2018</div>
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button clear small icon-left>
+          <ion-icon name="map"></ion-icon>
+          <div>Localizacao</div>
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button clear small icon-left>
+            <ion-icon name="car"></ion-icon>
+            <div>Como Chegar</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Agendamento</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-calendar [(ngModel)]="date" (onChange)="onChange($event)" [type]="type" [format]="'YYYY-MM-DD'">
+  </ion-calendar>
+
+  <ion-item>
+    <ion-label>Horários Disponiveis</ion-label>
+    <ion-select>
+      <ion-option  value="9:30">7:00</ion-option>
+      <ion-option  value="9:30">9:30</ion-option>
+      <ion-option  value="11:00">11:00</ion-option>
+      <ion-option  value="13:45">13:45</ion-option>
+      <ion-option  value="14:30">14:30</ion-option>
+      <ion-option  value="15:00">15:00</ion-option>
+      <ion-option  value="16:15">16:15</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <button ion-button block (click)="confirmSchedule()" padding-vertical >Agendar</button>
+
+  <button ion-button block  color="danger"  (click)="cancelSchedule();">Cancelar</button>
+</ion-content>
+
+

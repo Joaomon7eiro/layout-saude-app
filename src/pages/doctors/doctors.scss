@@ -1,0 +1,43 @@
+page-doctors {
+  ion-row div{
+    color:black !important;
+    font-size: 8pt !important;
+  }
+
+  ion-card{
+    border: 2px solid #00995d !important;
+  }
+
+  img{
+
+    margin: 0 auto;
+    height: 100%;
+    min-width: 100%;
+  }
+
+  ion-card-content{
+    border-bottom: 2px solid #eee !important;
+    border-top: 2px solid #eee !important;
+  }
+
+  span.button-inner{
+    color: white  !important;
+  }
+  ion-col span.button-inner{
+    color: #00995d !important;
+  }
+
+  span{
+    color: #00995d !important;
+  }
+  div.img {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px auto 0 auto;
+  }
+
+
+}

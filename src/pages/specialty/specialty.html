@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Agendamento
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  <div text-center class="categoryHeader">
+    <b>Escolha</b> uma especialidade
+  </div>
+  <ion-list no-lines >
+
+    <button ion-item text-capitalize (click)="pushConsultCategory()">
+      <ion-icon class="psiq" name="ios-body-outline" item-start></ion-icon>
+      Psiquiatra
+    </button>
+
+    <button ion-item text-capitalize>
+      <ion-icon class="cardio" name="heart" item-start></ion-icon>
+      Cardiologista
+    </button>
+
+    <button ion-item text-capitalize>
+      <ion-icon class="oftalmo" name="eye" item-start></ion-icon>
+      Oftalmologista
+    </button>
+
+
+
+  </ion-list>
+</ion-content>
+
