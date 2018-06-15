@@ -12,7 +12,7 @@
 
   <ion-item>
     <ion-label>Horários Disponiveis</ion-label>
-    <ion-select>
+    <ion-select cancelText="Cancelar">
       <ion-option  value="9:30">7:00</ion-option>
       <ion-option  value="9:30">9:30</ion-option>
       <ion-option  value="11:00">11:00</ion-option>
@@ -23,7 +23,7 @@
     </ion-select>
   </ion-item>
 
-  <button ion-button block (click)="confirmSchedule()" padding-vertical >Agendar</button>
+  <button ion-button block (click)="confirmSchedule()" margin-vertical >Agendar</button>
 
   <button ion-button block  color="danger"  (click)="cancelSchedule();">Cancelar</button>
 </ion-content>

@@ -1,8 +1,11 @@
 page-schedule {
-  li{
+  ul.week-title li{
     color:white;
   }
   span.button-inner{
     color: white  !important;
+  }
+  div.title span.button-inner{
+    color: black  !important;
   }
 }
